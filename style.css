@@ -1,0 +1,185 @@
+* {
+  	box-sizing: border-box;
+  	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  	font-size: 16px;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-size: 19px;
+}
+body{
+	
+	background-image:url(b5.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	opacity:0.9;
+	
+}
+
+
+.new {
+  	display: inline-block;
+  	text-decoration: none;
+  	background-color: #38b673;
+  	font-weight: bold;
+  	font-size: 14px;
+  	color: #FFFFFF;
+  	padding: 10px 15px;
+  	margin: 15px 0;
+}
+h1{
+  font-family: "Lobster", serif;
+  text-align:center;
+}
+table{
+	background: rgb(255, 255, 255);
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+	
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+
+
+table {
+  	width: 100%;
+  	padding-top: 30px;
+  	border-collapse: collapse;
+}
+table thead {
+  	background-color: #ebeef1;
+  	border-bottom: 1px solid #d3dae0;
+}
+table thead th {
+  	padding: 10px;
+  	font-weight: bold;
+  	color: #767779;
+  	font-size: 14px;
+}
+table tbody tr {
+  	border-bottom: 1px solid #d3dae0;
+}
+table tbody tr:nth-child(even) {
+  	background-color: #fbfcfc;
+}
+table tbody tr:hover {
+  	background-color: #376ab7;
+}
+table tbody tr:hover td {
+  	color: #FFFFFF;
+}
+table tbody tr:hover td:nth-child(1) {
+  	color: #FFFFFF;
+}
+table tbody tr td {
+  	padding: 10px;
+}
+table tbody tr td:nth-child(1) {
+  	color: #a5a7a9;
+}
+table tbody tr td.actions {
+  	padding: 8px;
+  	text-align: right;
+}
+table tbody tr td.actions .edit, .read table tbody tr td.actions .trash {
+  	display: inline-flex;
+  	text-align: right;
+  	text-decoration: none;
+  	color: #FFFFFF;
+  	padding: 10px 12px;
+}
+table tbody tr td.actions .trash {
+  	background-color: #b73737;
+}
+table tbody tr td.actions .trash:hover {
+  	background-color: #a33131;
+}
+table tbody tr td.actions .edit {
+  	background-color: #37afb7;
+}
+table tbody tr td.actions .edit:hover {
+  	background-color: #319ca3;
+}
+
+
+
+
+
+
+
+
+form {
+	
+	background: rgb(255, 255, 255);
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.input-group {
+    
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
